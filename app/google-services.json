@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "140219647569",
+    "firebase_url": "https://tagshop-2669a.firebaseio.com",
+    "project_id": "tagshop-2669a",
+    "storage_bucket": "tagshop-2669a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140219647569:android:2732832bd271583f",
+        "android_client_info": {
+          "package_name": "com.example.yehyunee.tagapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140219647569-m0v2tvnvm2ep6jub99sdvho75atdchb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp845YLWhmXdxdQBEliCUZoajO6hoFxSU"
+        },
+        {
+          "current_key": "AIzaSyDp845YLWhmXdxdQBEliCUZoajO6hoFxSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

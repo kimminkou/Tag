@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TagApplication</string>
+    <string name="facebook_app_id">2145575692375861</string>
+    <string name="kakao_app_key">c72fc19cc0d935829806176856d14af7</string>
+
+    <string name="main_pop_up_card_front">앞</string>
+    <string name="main_pop_up_card_back">뒤</string>
+</resources>

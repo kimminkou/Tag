@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_hot"
+        android:enabled="true"
+        android:icon="@android:drawable/btn_star"
+        android:title="HOT"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_upload"
+        android:enabled="true"
+        android:icon="@drawable/ic_upload"
+        android:title="Upload"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_follow"
+        android:enabled="true"
+        android:icon="@drawable/ic_follow"
+        android:title="Follow"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_mypage"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"
+        android:title="myPage"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

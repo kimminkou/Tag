@@ -1,0 +1,656 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:17:1-39:12
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/e644c675d19e1b10477deb4105c2b05b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/6fc2ab20a9710eb753d5b6ae5060a7b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.37.0.aar/c498915c136baf1a583de240303e83a9/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-login-4.37.0.aar/352c2efffc8ceb17bede32c5502001e9/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-share-4.37.0.aar/c46de0913d8db92525ebc947855e2886/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9d49fb2c72c19b36a2d17d0e359c1460/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39044fe389df435d8787a52cdd1e9c92/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/cd0e76a9ab3f0329ab051895b737c06e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/d6b67a5832afe3b9131b133b93219766/AndroidManifest.xml:2:1-7:12
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/7f66a4b6d79140227cf28318645d5322/AndroidManifest.xml:2:1-14:12
+MERGED from [jp.wasabeef:glide-transformations:1.0.6] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/glide-transformations-1.0.6.aar/ebc1c71fe75c300ec1e476789edbd093/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/1a43259d6f2f7baceb1747ff18f7dcff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-places-4.37.0.aar/50a4601de2407ece41b69867f71ad6d8/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.37.0.aar/0ca5fc3d0ab7658c3546cb5b0660cf69/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.37.0.aar/4cfbf4a6cfee060d082f0739f464cfeb/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/97878bdabffec0a213d20312c0837456/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/99002023894d31670f52447c0f1ae1ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/0b854291dde8163f4ca543f8d0bab55b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/91221edc57e2e281d4574bf0ebe8752f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/11da986555c4699e4abccb77b1b494a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/3652a2a05c65e7fc8f48ef83f507baf7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/bc4a5f348ff0b5361164b6ee06b35ee6/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/501aba698ac638660c78de2d0219e7ff/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/74a303f2148874a7e3af9d5a1f95fc40/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/f06c4652f5761c3c0e8e5efdf102ea1d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ff6752409cc8528c0003f8e749eb89ff/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/05b0e13a720fda79327fd21c87f891ae/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/07ae0b09498f791d8d9350828028d9a5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/b25765d18cd9b9dae2265b7e5f96851c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/52c5fdf9f7f31f58773736a1a1e711d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91a846d6b299073d36d4d71b0b96426c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d501c0011ad5f93fe2cd81993647586/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/eac588504494e1a3572f05512ef0d823/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/483fce499a7fed787a3f65dca54f6939/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ac132746c80761479ed85594f4f4d3ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a67d289d3e4ad8fcdf5d5622e15baad2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3d323d7f3f86cb6ed2262c84d281b974/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/0800671138d793b9de78618dc76babd7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/20679436dccb9662a33f18f321de07dc/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3a9c6f265e5fdab5ae3f1ef486e579fb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/00b54136b7cc3c83266ae72ab5cef724/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:8:22-62
+application
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:10:5-63:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:22:5-37:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.37.0.aar/c498915c136baf1a583de240303e83a9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.37.0.aar/c498915c136baf1a583de240303e83a9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-login-4.37.0.aar/352c2efffc8ceb17bede32c5502001e9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-login-4.37.0.aar/352c2efffc8ceb17bede32c5502001e9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-share-4.37.0.aar/c46de0913d8db92525ebc947855e2886/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-share-4.37.0.aar/c46de0913d8db92525ebc947855e2886/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:28:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39044fe389df435d8787a52cdd1e9c92/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39044fe389df435d8787a52cdd1e9c92/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/cd0e76a9ab3f0329ab051895b737c06e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/cd0e76a9ab3f0329ab051895b737c06e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:22:5-36:19
+MERGED from [com.facebook.android:facebook-places:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-places-4.37.0.aar/50a4601de2407ece41b69867f71ad6d8/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-places-4.37.0.aar/50a4601de2407ece41b69867f71ad6d8/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.37.0.aar/0ca5fc3d0ab7658c3546cb5b0660cf69/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.37.0.aar/0ca5fc3d0ab7658c3546cb5b0660cf69/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.37.0.aar/4cfbf4a6cfee060d082f0739f464cfeb/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.37.0.aar/4cfbf4a6cfee060d082f0739f464cfeb/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/3652a2a05c65e7fc8f48ef83f507baf7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/3652a2a05c65e7fc8f48ef83f507baf7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/bc4a5f348ff0b5361164b6ee06b35ee6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/bc4a5f348ff0b5361164b6ee06b35ee6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/f06c4652f5761c3c0e8e5efdf102ea1d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/f06c4652f5761c3c0e8e5efdf102ea1d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ff6752409cc8528c0003f8e749eb89ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ff6752409cc8528c0003f8e749eb89ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/05b0e13a720fda79327fd21c87f891ae/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/05b0e13a720fda79327fd21c87f891ae/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/07ae0b09498f791d8d9350828028d9a5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/07ae0b09498f791d8d9350828028d9a5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/b25765d18cd9b9dae2265b7e5f96851c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/b25765d18cd9b9dae2265b7e5f96851c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:11:5-24:19
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:11:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/0800671138d793b9de78618dc76babd7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/0800671138d793b9de78618dc76babd7/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:13:9-36
+	android:allowBackup
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:11:9-42
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:18:9-20:55
+	android:value
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:20:13-52
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:19:13-58
+activity#com.example.yehyunee.tagapplication.MainActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:28:27-74
+meta-data#com.kakao.sdk.AppKey
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:32:9-34:53
+	android:value
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:34:13-50
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:33:13-48
+activity#com.example.yehyunee.tagapplication.EmailSignOutActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:37:13-49
+activity#com.example.yehyunee.tagapplication.ProfileActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:40:13-44
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:43:9-51:20
+	android:grantUriPermissions
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:47:13-47
+	android:authorities
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:45:13-39
+	android:exported
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:44:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:48:13-50:53
+	android:resource
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:50:17-50
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:49:17-67
+activity#com.example.yehyunee.tagapplication.EmailInitLoginActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:53:9-54:61
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:53:19-57
+activity#com.example.yehyunee.tagapplication.HomeActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:55:9-56:51
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:55:19-47
+activity#com.example.yehyunee.tagapplication.PopUpCardActivity
+ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:58:9-61:25
+	android:screenOrientation
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:59:13-49
+	android:theme
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:60:13-50
+	android:name
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml:58:19-52
+uses-sdk
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/e644c675d19e1b10477deb4105c2b05b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/e644c675d19e1b10477deb4105c2b05b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/6fc2ab20a9710eb753d5b6ae5060a7b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/6fc2ab20a9710eb753d5b6ae5060a7b4/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.37.0.aar/c498915c136baf1a583de240303e83a9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.37.0.aar/c498915c136baf1a583de240303e83a9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-login-4.37.0.aar/352c2efffc8ceb17bede32c5502001e9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-login-4.37.0.aar/352c2efffc8ceb17bede32c5502001e9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-share-4.37.0.aar/c46de0913d8db92525ebc947855e2886/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-share-4.37.0.aar/c46de0913d8db92525ebc947855e2886/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9d49fb2c72c19b36a2d17d0e359c1460/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9d49fb2c72c19b36a2d17d0e359c1460/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39044fe389df435d8787a52cdd1e9c92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39044fe389df435d8787a52cdd1e9c92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/cd0e76a9ab3f0329ab051895b737c06e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/cd0e76a9ab3f0329ab051895b737c06e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/d6b67a5832afe3b9131b133b93219766/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/d6b67a5832afe3b9131b133b93219766/AndroidManifest.xml:5:5-44
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/7f66a4b6d79140227cf28318645d5322/AndroidManifest.xml:10:5-12:41
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/7f66a4b6d79140227cf28318645d5322/AndroidManifest.xml:10:5-12:41
+MERGED from [jp.wasabeef:glide-transformations:1.0.6] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/glide-transformations-1.0.6.aar/ebc1c71fe75c300ec1e476789edbd093/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:1.0.6] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/glide-transformations-1.0.6.aar/ebc1c71fe75c300ec1e476789edbd093/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/1a43259d6f2f7baceb1747ff18f7dcff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/1a43259d6f2f7baceb1747ff18f7dcff/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-places-4.37.0.aar/50a4601de2407ece41b69867f71ad6d8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-places-4.37.0.aar/50a4601de2407ece41b69867f71ad6d8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.37.0.aar/0ca5fc3d0ab7658c3546cb5b0660cf69/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.37.0.aar/0ca5fc3d0ab7658c3546cb5b0660cf69/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.37.0.aar/4cfbf4a6cfee060d082f0739f464cfeb/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.37.0.aar/4cfbf4a6cfee060d082f0739f464cfeb/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/97878bdabffec0a213d20312c0837456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/97878bdabffec0a213d20312c0837456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/99002023894d31670f52447c0f1ae1ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/99002023894d31670f52447c0f1ae1ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/0b854291dde8163f4ca543f8d0bab55b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/0b854291dde8163f4ca543f8d0bab55b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/91221edc57e2e281d4574bf0ebe8752f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/91221edc57e2e281d4574bf0ebe8752f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/11da986555c4699e4abccb77b1b494a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/11da986555c4699e4abccb77b1b494a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/3652a2a05c65e7fc8f48ef83f507baf7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/3652a2a05c65e7fc8f48ef83f507baf7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/bc4a5f348ff0b5361164b6ee06b35ee6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/bc4a5f348ff0b5361164b6ee06b35ee6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/501aba698ac638660c78de2d0219e7ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/501aba698ac638660c78de2d0219e7ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/74a303f2148874a7e3af9d5a1f95fc40/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/74a303f2148874a7e3af9d5a1f95fc40/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/f06c4652f5761c3c0e8e5efdf102ea1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/f06c4652f5761c3c0e8e5efdf102ea1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ff6752409cc8528c0003f8e749eb89ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ff6752409cc8528c0003f8e749eb89ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/05b0e13a720fda79327fd21c87f891ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/05b0e13a720fda79327fd21c87f891ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/07ae0b09498f791d8d9350828028d9a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/07ae0b09498f791d8d9350828028d9a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/b25765d18cd9b9dae2265b7e5f96851c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/b25765d18cd9b9dae2265b7e5f96851c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/52c5fdf9f7f31f58773736a1a1e711d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/52c5fdf9f7f31f58773736a1a1e711d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91a846d6b299073d36d4d71b0b96426c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91a846d6b299073d36d4d71b0b96426c/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d501c0011ad5f93fe2cd81993647586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d501c0011ad5f93fe2cd81993647586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/eac588504494e1a3572f05512ef0d823/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/eac588504494e1a3572f05512ef0d823/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/483fce499a7fed787a3f65dca54f6939/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/483fce499a7fed787a3f65dca54f6939/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ac132746c80761479ed85594f4f4d3ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ac132746c80761479ed85594f4f4d3ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a67d289d3e4ad8fcdf5d5622e15baad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a67d289d3e4ad8fcdf5d5622e15baad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3d323d7f3f86cb6ed2262c84d281b974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3d323d7f3f86cb6ed2262c84d281b974/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/0800671138d793b9de78618dc76babd7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/0800671138d793b9de78618dc76babd7/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/20679436dccb9662a33f18f321de07dc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/20679436dccb9662a33f18f321de07dc/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3a9c6f265e5fdab5ae3f1ef486e579fb/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3a9c6f265e5fdab5ae3f1ef486e579fb/AndroidManifest.xml:20:5-22:41
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/00b54136b7cc3c83266ae72ab5cef724/AndroidManifest.xml:10:5-12:41
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/00b54136b7cc3c83266ae72ab5cef724/AndroidManifest.xml:10:5-12:41
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yehyunee/Downloads/TagApplication/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/449b625d2c785f47b73ac72694e706fc/AndroidManifest.xml:34:13-89
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-common-4.37.0.aar/be8d86db320e86b7d81e286fe802429e/AndroidManifest.xml:34:19-64
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.2] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.2.aar/a1bcffee1502317a9b2401f2f5fe4cf8/AndroidManifest.xml:33:17-109
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.37.0.aar/09a65aff708be65564392c0b43186a4a/AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.37.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/facebook-core-4.37.0.aar/dfdacda36740f6f9d447c511b0d2dc16/AndroidManifest.xml:48:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/03d044c11dcd0c0fd29a888522ec597a/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/8da29691720386b2dc7163714094d493/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1317883ed5e4775bbbc4eb40725fdc08/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/0992a4e9688d7dba1c73bac153a73796/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:29:9-63
+permission#com.example.yehyunee.tagapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:32:22-76
+uses-permission#com.example.yehyunee.tagapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.yehyunee.tagapplication
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:48:27-58
+category#com.example.yehyunee.tagapplication
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6d2e79e49ec2c8a8d36903678048598b/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/ef60e5c3f4514c4e76d948f7bcd88a30/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/76c74f9d7b1d9be27df0684d7c7fa211/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/144a1caec0b7231d179a4982d5f42018/AndroidManifest.xml:24:13-58
+activity#com.kakao.auth.authorization.authcode.KakaoWebViewActivity
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:12:9-23:20
+	android:label
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:15:13-59
+	android:launchMode
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:16:13-43
+	android:windowSoftInputMode
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:13:13-86
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:18:13-22:29
+category#android.intent.category.DEFAULT
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/yehyunee/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/bc965dec8f6ef6762804e4c137bc0dc7/AndroidManifest.xml:21:27-73
