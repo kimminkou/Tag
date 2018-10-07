@@ -41,7 +41,7 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
                 startActivity(intent);
             }
         });*/
-
+        //test
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigationView);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
