@@ -245,6 +245,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
+                            //db 연결 후 기존유저인지 신규유저인지 판별
                             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                             startActivity(intent);
                             overridePendingTransition(R.anim.ani_slide_in_right, R.anim.ani_slide_out_left);
