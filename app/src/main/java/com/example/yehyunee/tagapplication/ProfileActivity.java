@@ -308,6 +308,14 @@ public class ProfileActivity extends Activity implements View.OnClickListener {
                     Toast.makeText(ProfileActivity.this, "태그네임을 설정해주세요.", Toast.LENGTH_SHORT).show();
                 }else{
                     PreshareUtil.getInstance().setStringPref(mContext,"tagName", mTagName.getText().toString());
+
+                    //db 연결 후 태그네임 중복검사
+                    // 레퍼런스 -> /names/$uid:"name"
+                    // names 테이블에서 name 중복검사 후 중복되지 않으면 names 테이블에 등록
+                    // 데이터구조 -> $uid:"name"
+                    // FirebaseUser user = mAuth.getcurrentUser()
+                    // user.getUid()
+
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                     UserProfileChangeRequest profileChangeRequest = new UserProfileChangeRequest.Builder()
                             .setDisplayName(mTagName.getText().toString())
